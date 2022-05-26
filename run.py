@@ -39,9 +39,9 @@ try:
         #Ganti channel
         cmultiplexer_raw.cetak(2)
         sleep(0.5)
-        jalan_raw.cetak
+        jalan_raw.cetak()
         sleep(0.5)
-        jalan_raw.cetak
+        jalan_raw.cetak()
         sleep(3) 
         # Turn all relays OFF
         #2
@@ -53,9 +53,9 @@ try:
         #Ganti channel
         cmultiplexer_raw.cetak(4)
         sleep(0.5)
-        jalan_raw.cetak
+        jalan_raw.cetak()
         sleep(0.5)
-        jalan_raw.cetak
+        jalan_raw.cetak()
         sleep(3) 
         # Turn all relays OFF
         #3
@@ -67,9 +67,9 @@ try:
         #Ganti channel
         cmultiplexer_raw.cetak(5)
         sleep(0.5)
-        jalan_raw.cetak
+        jalan_raw.cetak()
         sleep(0.5)
-        jalan_raw.cetak
+        jalan_raw.cetak()
         sleep(3) 
         # Turn all relays OFF
         #4
@@ -81,9 +81,9 @@ try:
         #Ganti channel
         cmultiplexer_raw.cetak(7)
         sleep(0.5)
-        jalan_raw.cetak
+        jalan_raw.cetak()
         sleep(0.5)
-        jalan_raw.cetak
+        jalan_raw.cetak()
         sleep(3) 
         # Turn all relays OFF
 except KeyboardInterrupt:
