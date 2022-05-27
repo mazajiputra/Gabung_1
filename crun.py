@@ -29,6 +29,11 @@ sleep(2)
 
 def f1():
     try:
+        GPIO.output(12, GPIO.HIGH)
+        GPIO.output(16, GPIO.HIGH)
+        GPIO.output(20, GPIO.HIGH)
+        GPIO.output(21, GPIO.HIGH) 
+        sleep(1) 
         #ganti relay dan baca
         GPIO.output(12, GPIO.LOW)
         GPIO.output(16, GPIO.HIGH)
@@ -47,6 +52,11 @@ def f1():
 
 def f2():
     try:
+        GPIO.output(12, GPIO.HIGH)
+        GPIO.output(16, GPIO.HIGH)
+        GPIO.output(20, GPIO.HIGH)
+        GPIO.output(21, GPIO.HIGH) 
+        sleep(1) 
         #ganti relay dan baca
         GPIO.output(12, GPIO.HIGH)
         GPIO.output(16, GPIO.LOW)
@@ -66,6 +76,11 @@ def f2():
 
 def f3():
     try:
+        GPIO.output(12, GPIO.HIGH)
+        GPIO.output(16, GPIO.HIGH)
+        GPIO.output(20, GPIO.HIGH)
+        GPIO.output(21, GPIO.HIGH) 
+        sleep(1) 
         #ganti relay dan baca
         GPIO.output(12, GPIO.HIGH)
         GPIO.output(16, GPIO.HIGH)
@@ -83,6 +98,11 @@ def f3():
         sleep(3) 
 def f4():
     try:
+        GPIO.output(12, GPIO.HIGH)
+        GPIO.output(16, GPIO.HIGH)
+        GPIO.output(20, GPIO.HIGH)
+        GPIO.output(21, GPIO.HIGH) 
+        sleep(1) 
         #ganti relay dan baca
         GPIO.output(12, GPIO.HIGH)
         GPIO.output(16, GPIO.HIGH)
