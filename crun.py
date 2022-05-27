@@ -103,7 +103,7 @@ while (True):
         f3()
         #4
         f4()
-except KeyboardInterrupt:
+def selesai():
 # catches the ctrl-c command, breaks the loop above 
 # and turns the relays off
     GPIO.output(12, GPIO.HIGH)
