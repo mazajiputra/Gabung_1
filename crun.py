@@ -48,7 +48,7 @@ def f1():
         sleep(3) 
     except Exception as e:
         print('Error:',e)
-        sleep(3) 
+        sleep(10) 
 
 def f2():
     try:
@@ -72,7 +72,7 @@ def f2():
         # Turn all relays OFF
     except Exception as e:
         print('Error:',e)
-        sleep(3) 
+        sleep(10) 
 
 def f3():
     try:
@@ -117,18 +117,19 @@ def f4():
         sleep(3) 
     except Exception as e:
         print('Error:',e)
-        sleep(3) 
-while (True):
-    try:
-        #1
-        f1()
-        #2
-        f2()
-        #3
-        f3()
-        #4
-        f4()
-    except KeyboardInterrupt:
+        sleep(10) 
+try:
+    while (True):
+        try:
+            #1
+            f1()
+            #2
+            f2()
+            #3
+            f3()
+            #4
+            f4()
+except KeyboardInterrupt:
 # catches the ctrl-c command, breaks the loop above 
 # and turns the relays off
         GPIO.output(12, GPIO.HIGH)
