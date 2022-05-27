@@ -36,6 +36,7 @@ while (True):
         GPIO.output(16, GPIO.HIGH)
         GPIO.output(20, GPIO.HIGH)
         GPIO.output(21, GPIO.HIGH)
+    except RuntimeError:
         #Ganti channel
         cmultiplexer_raw.cetak(2)
         sleep(0.5)
