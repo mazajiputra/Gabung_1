@@ -28,7 +28,7 @@ GPIO.output(20, GPIO.HIGH)
 GPIO.output(21, GPIO.HIGH)   
 sleep(2) 
 
-while (True):
+while (False):
     try:
         #1
         # Turn all relays ON
