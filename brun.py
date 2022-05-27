@@ -101,3 +101,6 @@ except KeyboardInterrupt:
     GPIO.output(21, GPIO.HIGH)   
     #Sleep for 5 seconds
     # sleep(5)
+except:
+    jalan()
+print("Program selesai")
