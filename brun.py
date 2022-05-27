@@ -1,7 +1,7 @@
 #persiapan
 import RPi.GPIO as GPIO
 from time import sleep
-import jalan_raw as sensor
+import jalan_raw
 import cmultiplexer_raw
 
 # The script as below using BCM GPIO 00..nn numbers
@@ -39,9 +39,9 @@ while (True):
         #Ganti channel
         cmultiplexer_raw.cetak(2)
         sleep(0.5)
-        sensor.cetak
+        jalan_raw.cetak()
         sleep(0.5)
-        sensor.cetak
+        jalan_raw.cetak()
         sleep(3) 
         # Turn all relays OFF
         #2
@@ -53,9 +53,9 @@ while (True):
         #Ganti channel
         cmultiplexer_raw.cetak(4)
         sleep(0.5)
-        sensor.cetak
+        jalan_raw.cetak()
         sleep(0.5)
-        sensor.cetak
+        jalan_raw.cetak()
         sleep(3) 
         # Turn all relays OFF
         #3
@@ -67,9 +67,9 @@ while (True):
         #Ganti channel
         cmultiplexer_raw.cetak(5)
         sleep(0.5)
-        sensor.cetak
+        jalan_raw.cetak()
         sleep(0.5)
-        sensor.cetak
+        jalan_raw.cetak()
         sleep(3) 
         # Turn all relays OFF
         #4
@@ -81,9 +81,9 @@ while (True):
         #Ganti channel
         cmultiplexer_raw.cetak(7)
         sleep(0.5)
-        sensor.cetak
+        jalan_raw.cetak()
         sleep(0.5)
-        sensor.cetak
+        jalan_raw.cetak()
         sleep(3) 
         # Turn all relays OFF
     except KeyboardInterrupt:
