@@ -28,8 +28,8 @@ GPIO.output(20, GPIO.HIGH)
 GPIO.output(21, GPIO.HIGH)   
 sleep(2) 
 
-try:
-    while (True):
+def jalan():
+    
         #1
         # Turn all relays ON
         GPIO.output(12, GPIO.LOW)
@@ -86,6 +86,9 @@ try:
         jalan_raw.cetak()
         sleep(3) 
         # Turn all relays OFF
+try:
+    while (True):
+        jalan()
 except KeyboardInterrupt:
 # catches the ctrl-c command, breaks the loop above 
 # and turns the relays off
@@ -97,3 +100,4 @@ except KeyboardInterrupt:
     # sleep(5)
 except RuntimeError as e:
     raise ImportError(e)
+    jalan()
