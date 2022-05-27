@@ -43,6 +43,7 @@ def f1():
         sleep(3) 
     except Exception as e:
         print('Error:',e)
+        sleep(3) 
 
 def f2():
     try:
@@ -61,6 +62,7 @@ def f2():
         # Turn all relays OFF
     except Exception as e:
         print('Error:',e)
+        sleep(3) 
 
 def f3():
     try:
@@ -78,6 +80,7 @@ def f3():
         sleep(3) 
     except Exception as e:
         print('Error:',e)
+        sleep(3) 
 def f4():
     try:
         #ganti relay dan baca
@@ -94,6 +97,7 @@ def f4():
         sleep(3) 
     except Exception as e:
         print('Error:',e)
+        sleep(3) 
 while (True):
         #1
         f1()
