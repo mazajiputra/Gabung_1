@@ -35,12 +35,12 @@ def f1():
         GPIO.output(21, GPIO.HIGH) 
         sleep(1) 
         #ganti relay dan baca
-        GPIO.output(12, GPIO.LOW)
+        GPIO.output(12, GPIO.HIGH)
         GPIO.output(16, GPIO.HIGH)
-        GPIO.output(20, GPIO.HIGH)
+        GPIO.output(20, GPIO.LOW))
         GPIO.output(21, GPIO.HIGH)
         #Ganti channel
-        cmultiplexer_raw.cetak(2)
+        cmultiplexer_raw.cetak(5)
         sleep(0.5)
         jalan_raw.cetak()
         sleep(0.5)
