@@ -28,7 +28,7 @@ GPIO.output(20, GPIO.HIGH)
 GPIO.output(21, GPIO.HIGH)   
 sleep(2) 
 
-while (False):
+while (True):
     try:
         #1
         # Turn all relays ON
@@ -39,9 +39,9 @@ while (False):
         #Ganti channel
         cmultiplexer_raw.cetak(2)
         sleep(0.5)
-        sensor.cetak()
+        sensor.cetak
         sleep(0.5)
-        sensor.cetak()
+        sensor.cetak
         sleep(3) 
         # Turn all relays OFF
         #2
@@ -53,9 +53,9 @@ while (False):
         #Ganti channel
         cmultiplexer_raw.cetak(4)
         sleep(0.5)
-        sensor.cetak()
+        sensor.cetak
         sleep(0.5)
-        sensor.cetak()
+        sensor.cetak
         sleep(3) 
         # Turn all relays OFF
         #3
@@ -67,9 +67,9 @@ while (False):
         #Ganti channel
         cmultiplexer_raw.cetak(5)
         sleep(0.5)
-        sensor.cetak()
+        sensor.cetak
         sleep(0.5)
-        sensor.cetak()
+        sensor.cetak
         sleep(3) 
         # Turn all relays OFF
         #4
@@ -81,9 +81,9 @@ while (False):
         #Ganti channel
         cmultiplexer_raw.cetak(7)
         sleep(0.5)
-        sensor.cetak()
+        sensor.cetak
         sleep(0.5)
-        sensor.cetak()
+        sensor.cetak
         sleep(3) 
         # Turn all relays OFF
     except KeyboardInterrupt:
