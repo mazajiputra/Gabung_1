@@ -119,6 +119,7 @@ def f4():
         print('Error:',e)
         sleep(3) 
 while (True):
+    try:
         #1
         f1()
         #2
@@ -127,12 +128,12 @@ while (True):
         f3()
         #4
         f4()
-def selesai():
+    except KeyboardInterrupt:
 # catches the ctrl-c command, breaks the loop above 
 # and turns the relays off
-    GPIO.output(12, GPIO.HIGH)
-    GPIO.output(16, GPIO.HIGH)
-    GPIO.output(20, GPIO.HIGH)
-    GPIO.output(21, GPIO.HIGH)   
+        GPIO.output(12, GPIO.HIGH)
+        GPIO.output(16, GPIO.HIGH)
+        GPIO.output(20, GPIO.HIGH)
+        GPIO.output(21, GPIO.HIGH)   
     #Sleep for 5 seconds
     # sleep(5)
